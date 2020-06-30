@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'DTFoundation/DTAnimatedGIF', '1.7.14-tvlk'
   spec.frameworks   = 'MediaPlayer', 'QuartzCore', 'CoreText', 'CoreGraphics', 'ImageIO'
   spec.requires_arc = true
-  spec.homepage     = 'https://github.com/Cocoanetics/DTCoreText'
+  spec.homepage     = 'https://github.com/traveloka/DTCoreText'
   spec.summary      = 'Methods to allow using HTML code with CoreText.'
   spec.author       = { 'Oliver Drobnik' => 'oliver@cocoanetics.com' }
   spec.documentation_url = 'http://docs.cocoanetics.com/DTCoreText'
