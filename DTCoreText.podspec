@@ -1,15 +1,15 @@
 Pod::Spec.new do |spec|
   spec.name         = 'DTCoreText'
-  spec.version      = '1.6.24-tvlk'
+  spec.version      = '1.6.25-tvlk'
   spec.platforms    = {:ios => '4.3', :tvos => '9.0' }
   spec.license      = 'BSD'
   spec.source       = { :git => 'https://github.com/traveloka/DTCoreText.git', :tag => spec.version.to_s }
   spec.source_files = 'Core/Source/*.{h,m,c}'
   spec.ios.source_files = 'Core/Source/iOS/*.{h,m,c}'
-  spec.dependency 'DTFoundation/Core', '1.7.15-tvlk'
-  spec.dependency 'DTFoundation/UIKit', '1.7.15-tvlk'
-  spec.dependency 'DTFoundation/DTHTMLParser', '1.7.15-tvlk'
-  spec.dependency 'DTFoundation/DTAnimatedGIF', '1.7.15-tvlk'
+  spec.dependency 'DTFoundation/Core', '1.7.16-tvlk'
+  spec.dependency 'DTFoundation/UIKit', '1.7.16-tvlk'
+  spec.dependency 'DTFoundation/DTHTMLParser', '1.7.16-tvlk'
+  spec.dependency 'DTFoundation/DTAnimatedGIF', '1.7.16-tvlk'
   spec.frameworks   = 'MediaPlayer', 'QuartzCore', 'CoreText', 'CoreGraphics', 'ImageIO'
   spec.requires_arc = true
   spec.homepage     = 'https://github.com/traveloka/DTCoreText'
