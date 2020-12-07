@@ -1,10 +1,11 @@
 Pod::Spec.new do |spec|
   spec.name         = 'DTCoreText'
-  spec.version      = '1.6.25-tvlk'
+  spec.version      = '1.6.26-tvlk'
   spec.platforms    = {:ios => '4.3', :tvos => '9.0' }
   spec.license      = 'BSD'
   spec.source       = { :git => 'https://github.com/traveloka/DTCoreText.git', :tag => spec.version.to_s }
   spec.source_files = 'Core/Source/*.{h,m,c}'
+  spec.prefix_header_file = 'Core/DTCoreText-Prefix.pch'
   spec.ios.source_files = 'Core/Source/iOS/*.{h,m,c}'
   spec.dependency 'DTFoundation/Core', '1.7.16-tvlk'
   spec.dependency 'DTFoundation/UIKit', '1.7.16-tvlk'
